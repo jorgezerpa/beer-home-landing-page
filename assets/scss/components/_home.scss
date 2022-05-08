@@ -1,0 +1,21 @@
+/*=============== HOME ===============*/
+.home{
+    background-image: url('./../img/header-bg.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    &__container{
+        row-gap: 3rem;
+    }
+    &__title{
+        color: #fff;
+        font-size: var(--biggest-font-size);
+        font-weight: var(--font-bold);
+        margin-bottom: var(--mb-0-75);
+    }
+    &__description{
+        color: #DC9202;
+    }
+}
