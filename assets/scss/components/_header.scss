@@ -19,8 +19,8 @@
     &__menu{
         @media screen and (max-width: 767px){
             position: fixed;
-            background-color: var(--container-color);
-            box-shadow: 0 0 4px rgba(0,0,0,.1);
+            background-color:#222;
+            box-shadow: 0 0 4px rgba(255,255,255,.1);
             padding: 2.5rem 0;
             width: 90%;
             top: -100%;
@@ -49,6 +49,7 @@
         cursor: pointer;
     }
 }
+
 
 /* Show menu */
 .show-menu{
